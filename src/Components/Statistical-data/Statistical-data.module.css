@@ -1,0 +1,34 @@
+.statistics {
+  padding: 10px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.stats__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.stats__label {
+  font-size: smaller;
+}
+
+.stats__percentage {
+  font-size: smaller;
+  font-weight: bold;
+}
+
+.stats__list > li {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(236, 236, 236);
+  width: 20%;
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5px;
+}
